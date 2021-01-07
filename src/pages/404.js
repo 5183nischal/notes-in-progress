@@ -7,7 +7,7 @@ export default () => (
     <p className="my-4">Hmm, it seems this page is yet to be written... 🤔</p>
     <p className="text-sm m-0">
       Anyways, @ me on{' '}
-      <a href="https://twitter.com/cryptowanderer">Twitter</a> and we can talk.
+      <a href="https://twitter.com/nischmainali">Twitter</a> and we can talk.
     </p>
   </div>
 );

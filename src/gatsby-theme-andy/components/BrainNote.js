@@ -64,22 +64,22 @@ const BrainNote = ({ note }) => {
         <h1 className="my-4">{note.title}</h1>
         <MDXRenderer>{note.childMdx.body}</MDXRenderer>
       </div>
-      <div className="refs-box bg-gray-900 text-gray-600 rounded-lg mb-4 p-4">
+      <div className="refs-box bg-blue-200 text-gray-600 rounded-lg mb-4 p-4" style={{backgroundColor: '#143642'}}>
             {referenceBlock}
             <p className="text-sm m-0">
-              Explore the full {' '}
-              <a href="https://www.youtube.com/playlist?list=PL5ClmaG2tnPM3sgzhHmEhxitzdX0latyD" target="_blank" rel="noopener noreferrer">
-                YouTube playlist
-              </a>{' '} or {' '}
-              <a href="https://www.youtube.com/playlist?list=PL5ClmaG2tnPNgqWDBGCWAQxD0sYpbfPRK" target="_blank" rel="noopener noreferrer">
-                The Blue Book playlist
-              </a>{' '} or the {' '}
-              <a href="https://www.youtube.com/playlist?list=PL5ClmaG2tnPOSeeVkPwtLIh5UjjFHcTKj" target="_blank" rel="noopener noreferrer">
-                Living playlist
-              </a>. You can also @ me on{' '}
-              <a href="https://twitter.com/cryptowanderer" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>{' '} with any questions.
+              Find production-grade notes {' '}
+              <a href="https://spinglass.xyz" target="_blank" rel="noopener noreferrer">
+                here,
+              </a>{' '} a zine on Nepal  {' '}
+              <a href="https://yugvani.netlify.app" target="_blank" rel="noopener noreferrer">
+                here.
+              </a>{' '} And {' '}
+              <a href="https://nischalmainali.xyz" target="_blank" rel="noopener noreferrer">
+                this
+              </a> is my personal page. You can also @ me on{' '}
+              <a href="https://twitter.com/nischmainali" target="_blank" rel="noopener noreferrer">
+                Twitter.
+              </a>{' '}
             </p>
           </div>
     </MDXProvider>

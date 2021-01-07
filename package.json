@@ -1,5 +1,5 @@
 {
-  "name": "dyeing-the-blue-book",
+  "name": "notes-in-progress",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "clean": "gatsby clean"
   },
   "keywords": [],
-  "author": "Andy Tudhope <andy@status.im> (https://andytudhope.africa)",
+  "author": "Nischal Mainali <nischal.mainali@nyu.edu> (https://nischalmainali.xyz)",
   "license": "MIT",
   "dependencies": {
     "@tippyjs/react": "^4.0.2",

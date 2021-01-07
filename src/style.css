@@ -3,33 +3,41 @@
 
 body {
   height: 100vh;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(13, 42, 53);
 }
 
 h1 {
-  @apply text-3xl text-white font-bold;
+  @apply text-3xl text-gray-400 font-bold;
 }
 h2 {
-  @apply text-2xl text-white font-bold;
+  @apply text-2xl text-gray-400 font-bold;
 }
 h3 {
-  @apply text-xl text-white font-bold;
+  @apply text-xl text-gray-400 font-bold;
 }
 h5 {
-  @apply text-indigo-600 font-bold;
+  @apply text-gray-400 font-bold;
 }
 a {
-  @apply text-white underline;
+  @apply text-gray-400 underline;
+  color: rgb(167, 180, 182);
 }
 a:hover {
   @apply text-indigo-300 no-underline;
 }
 p {
   @apply mb-4 text-gray-400;
+  color: rgb(167, 180, 182);
 }
 
 ul {
   @apply list-disc pl-6 text-white;
+  color: rgb(167, 180, 182);
+}
+
+ol {
+  @apply list-disc pl-6 text-gray-400;
+  color: rgb(167, 180, 182);
 }
 
 hr {
@@ -61,7 +69,9 @@ img {
 }
 
 .refs-box {
+  color: rgb(20, 54, 66);
   margin-top: 20px;
+  
 }
 
 .video {
@@ -102,6 +112,7 @@ img {
   max-width: 100vw;
   border-right: 1px solid rgb(255,255,255);
   border-left: 1px solid rgb(255,255,255);
+  background-color: rgb(13, 42, 53);
 }
 
 .note-container:first-child {
